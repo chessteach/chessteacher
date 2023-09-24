@@ -1,0 +1,30 @@
+
+
+
+.grid{
+	position:abosolute;
+	display:grid;
+	grid-template-columns:130px 130px ;
+	grid-template-rows:130px 130px ;
+	justify-content:flex-start;
+	left:100vw;
+	align-content:flex-end;
+	height:95%;
+	
+}
+.p{
+	border-style:outset;
+	border-radius:6;
+}
+.piecess{
+	display:grid;
+    grid-template-columns:200px 700px ;
+	grid-template-rows:250px 75px ;
+}
+.button{
+	border:none;
+}
+.text{
+	position:relative;
+	top:200px;
+	left:10px
